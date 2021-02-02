@@ -1,0 +1,9 @@
+{
+    "extends": "../tsconfig.base",
+    "compilerOptions": {
+        "removeComments": true
+    },
+    "include": [
+        "./**/*" //. : indicates it'll start looking from the current dir ; ** : look recursively through all sub dirs ; looks for all files ending in ts
+    ]
+}
